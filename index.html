@@ -407,22 +407,25 @@
         </div>
         <div class="footer-form">
           <p class="form-title">Subscribe</p>
-          <input
-            type="text"
-            name="footer-input"
-            id="footer-input"
-            class="footer-input"
-            placeholder="E-mail"
-          />
-          <button type="button" class="footer-button">
-            Subscribe
-            <svg class="footer-icon">
-              <use href="./images/icons.svg#icon-litak"></use>
-            </svg>
-          </button>
+          <form class="footer-form-wrap">
+            <input
+              type="text"
+              name="footer-input"
+              id="footer-input"
+              class="footer-input"
+              placeholder="E-mail"
+            />
+            <button type="button" class="footer-button">
+              Subscribe
+              <svg class="footer-icon">
+                <use href="./images/icons.svg#icon-litak"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
+    <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
@@ -474,7 +477,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field textarea">
             <label for="user-text" class="input-text">Comment</label>
             <textarea
               name="user-text"
